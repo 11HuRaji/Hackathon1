@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: plum;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+td div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+td img {
+    width: 70px;
+    height: 70px;
+}
